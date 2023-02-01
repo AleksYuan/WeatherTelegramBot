@@ -1,4 +1,4 @@
-package bot;
+package bot.models;
 
 
 import lombok.AllArgsConstructor;
@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 @Getter
@@ -15,7 +14,6 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Weather {
-
 
     private String dt;
     private String timezone;
@@ -29,6 +27,7 @@ public class Weather {
     private Map<String, String> main;
     private String visibility;
     private Map<String, String> snow;
+    private Map<String, String> rain;
     private Map<String, String> wind;
     private Map<String, String> clouds;
     private Map<String, String> sys;
