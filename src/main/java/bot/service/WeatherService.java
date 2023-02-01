@@ -15,6 +15,7 @@ public class WeatherService {
     private final OpenWeather openWeather;
 
     public WeatherService() {
+
         this.openWeather = new OpenWeather("");
     }
 
