@@ -21,7 +21,7 @@ public class BotService {
     private final WeatherService weatherService;
 
     public BotService() {
-        bot = new Bot("FoPiplbot", "5736519996:AAGTBnGC5FCAY39RemAgZqWKi3MuxYRPM_c");
+        bot = new Bot("FoPiplbot", "");
         clientRepo = new ClientRepo();
         weatherService = new WeatherService();
     }

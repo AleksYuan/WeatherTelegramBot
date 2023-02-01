@@ -15,7 +15,7 @@ public class WeatherService {
     private final OpenWeather openWeather;
 
     public WeatherService() {
-        this.openWeather = new OpenWeather("0e1ca1b943aabe0b388771c33f0ffaeb");
+        this.openWeather = new OpenWeather("");
     }
 
     public String getWeatherApiKey() {
